@@ -1,0 +1,418 @@
+/*IT Job Search CSS, LCDC*/
+/* Color scheme...
+#2C3531 - Dark Green
+#116466 - Teal
+#D9B08C - Darker Beige
+#FFCB9A - Beige
+#D1E8E2 - Light Green/Grey
+*/
+
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 50px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to bottom, #D9B08C,#116466);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3{
+    text-align:center
+}
+h2{
+    color:#D1E8E2;
+    letter-spacing: 3px;
+}
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+    color:#2C3531;
+    padding-bottom: 5px;
+}
+
+dd {
+    text-align: justify;
+    color:#2C3531;
+
+}
+
+form {
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right,#D1E8E2 , #2C3531, #D1E8E2);
+}
+.emphasis{
+    font-style:  italic;
+    font-weight: bold;
+    background-color: #2C353180;
+}
+
+#homebackground {
+    background-image: url(../Images/IT\ sitting.jpg);
+    background-repeat:no-repeat;
+    background-size:cover
+}
+.bodyPadding{
+    padding-top:175px;
+}
+/*Beginning of column css*/  
+.columnTable{
+width: 100%;
+display: table;
+}
+
+.rightColumn {
+width: 15%;
+height: 100%;
+background-color: #116466;
+border-style: ridge;
+border-color: #2C3531;
+text-align: center;
+} 
+
+.leftColumn {
+    width: 15%;
+    height: 100%;
+    background-color:#116466;
+    border-style: ridge;
+    border-color: #2C3531;
+    text-align: center;
+}
+
+.center { 
+width: 70%;
+height: 100%;
+padding: 25px;
+}
+
+.rightColumn,
+.leftColumn,
+.center {
+  display: table-cell;
+}
+
+a.center{
+    text-align: center;
+}
+/*End of column css*/  
+
+.loginForm{
+    text-align: center;
+}
+
+
+.user {
+    display:inline-block;
+    position: relative;
+}
+.dropdown {
+    background-color: #116466;
+    color: #D1E8E2;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {background-color: #D1E8E2;}
+
+.user:hover .dropdownContent {display: block;}
+  
+.user:hover .dropdown {background-color: #2C3531;}
+
+
+/*Beginning of Header and menu CSS*/  
+.header {
+position: fixed;
+width: 100%;
+padding: 10px 16px;
+background-image: url(../Images/Header_Background.jpg);
+background-size:cover;
+color: #f1f1f1;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-shadow: 10px 10px 10px #2C3531;
+    mix-blend-mode:luminosity;
+    font-family: 'Impact', verdana, geneva ;
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Impact', verdana, geneva ;
+    text-shadow: 5px 5px 5px #2C3531;
+    margin: 10px;
+}
+
+footer {
+    background-color: #2C3531;
+    color:#D1E8E2;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+}
+
+div.menu{
+    text-align: center;
+}
+/*change to px*/
+a.menu {
+    display:inline-block;
+    padding:8px 8px;
+    border:2px solid #D1E8E2;
+    margin:0 5px 5px 0;
+    text-decoration:none;
+    font-weight:400;
+    color:#D1E8E2;
+    background-color:#2C353180 ;
+    text-align:center;
+    transition: all 0.25s;
+    }
+
+a.menu:hover{
+    color:#2C3531;
+    border-color:#2C3531;
+    }
+
+a.current {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #D1E8E2;
+    color:#116466;
+    border-color: #116466;
+}    
+/*End of Header and menu CSS*/  
+
+/*Beginning of Welcome message CSS*/  
+div.welcome {
+    background-color:#D1E8E24D;
+    color:#D1E8E2 ;
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    -webkit-text-stroke: 1px #2C3531;
+   
+}
+.welcome2 {
+    font-size: 36px;
+    color: #116466;
+    -webkit-text-stroke: 1px #D1E8E2;
+}
+
+/*Add all CSS for Welcome message*/
+h3.welcome{
+    text-align: justify;   
+}
+
+img.welcome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+}
+
+/*End of Welcome message CSS*/ 
+
+.feature{
+    background-color: #2C353180;
+    width: 75%;
+    margin:auto;
+    padding: 50px;
+}
+.feature h2{
+    font-size: 40px;
+    color:#FFCB9A ;
+    text-shadow: 5px 5px 5px #2C3531;
+    margin: 10px;
+}
+/*Job Description Alphabet Menu*/
+#alphamenu {
+    text-align: center;
+}
+dl:before, #alphamenu:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -190px; 
+    height: 190px; 
+    visibility: hidden; 
+  }
+
+
+/***Job Listing Classes***/
+
+/*Styling for the Job Lisiting sections*/
+div.jobpost {
+    border: solid #d9d9d9 2px;
+    width: 96%;
+    height: 25%;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 1%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+/*Styling for Job Posting Button*/
+#jobbutton {
+    text-align: center; 
+}
+
+/*Styling for individual listing elements*/
+.position {
+    font-weight: 900;
+    font-size: 20px;
+    color: #1f1f1f;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.compname {
+    font-weight: 600;
+    color: #808080;
+}
+
+.location {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*Styling for filter elements*/
+div.filter {
+    text-align: justify;
+}
+
+#filterText {
+    color: #d9d9d9;
+}
+
+/*Styling for job posting form*/
+#postForm {
+    border: solid #d9d9d9 2px;
+    width: 20%;
+    margin: 0% 40% 0% 40%;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+
+/*Styling for Individual Columns*/
+
+.middleAccount {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.middleAccount img{
+    margin:auto;
+}
+.form{
+    clear: both;
+}
+
+div.account{
+    background-color:#D1E8E24D;
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    clear:both;
+    overflow:hidden;
+    text-align: center;
+}
+img.profile {
+    width: 250px;
+    float: left;
+    clear: left;
+    padding:50px;
+}
+
+/* Styling for questions */
+
+#results {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    width: 85%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    height: 125%;
+    margin: 0 auto;  
+    
+    
+}
+#qflegend {
+    font-size: 16px;
+    text-decoration: underline;
+}
+#userQ {
+    font-size: 24px;
+    width: 65%;
+    text-decoration-color: #22999c;
+}
+#qlabel {
+    font-size: 14px;
+}
+
+.answer {
+    color: rgb(90, 90, 90);
+}
+.qSubmit, .mainButton, .jobbutton {
+    display:inline-block;
+    padding:8px 8px;
+    border: 3px solid #22999c;
+    border-radius: 10px; /*Controls roundness of border*/
+    margin:0 5px 5px 0;
+    text-decoration:none;
+    font-weight:400;
+    text-align:center;
+    font-weight: bold;
+    background-color: #22999c;
+    color:#D1E8E2;
+}
+.formPad {
+    margin-bottom: 5%;
+}
+.formPad2 {
+    margin-bottom: 1px;
+}

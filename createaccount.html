@@ -1,0 +1,43 @@
+<!--IT Job Search, LCDC-->
+<!--David Brooks 3/17/21-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Job Search | Create Account</title>
+    <link rel='stylesheet' type='text/css' href='./CSS/Itjob.css'>
+    <script src='main.js'></script>
+</head>
+<body class="body">
+    <div id ="pageContainer">
+        <div id ="contentWrap">
+            <div class="header" id="myHeader">
+                <h2> Create Account</h2>
+                <!--button to go back home-->
+                <a href='Home.html' class="menu">back to home</a>
+            </div>
+            <div class="bodyPadding"></div> 
+                <form>
+                    <!--Form to create a new account-->
+                    <label for = "email">Enter your email address:</label><br/>
+                    <input type = "text" id ="email"><br/>
+                    <label for = "uName">Enter User Name:</label><br/>
+                    <input type = "text" id ="uName"><br/>
+                    <label for = "password">Enter a password:</label><br/>
+                    <input type = "text" id ="password"><br/>
+                    <!--Radio button for employee or employer-->
+                    <input type = "radio" id ="employee" name = "role" value ="employee">
+                    <lable for ="employee">Employee</lable><br/>
+                    <input type = "radio" id ="employer" name = "role" value ="employer">
+                    <lable for = "employer">Employer</lable><br/>
+
+                    <!--this will create a log in the database when using javascript-->
+                    <input type ="submit" value="Create Account" class='mainButton'>
+                </form>
+            </div>
+            <footer>
+                <p>LCDC | IT Job Search© 2021</p>
+            </footer>
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--IT Job Search, LCDC-->
+<!--David Brooks 3/17/21-->
+<!DOCTYPE html>
+<head>
+    <title>IT Job Search | Login</title>
+    <link rel='stylesheet' type='text/css' href='./CSS/Itjob.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id ="pageContainer">
+        <div id ="contentWrap">
+            <!--Header-->
+            <div class="header" id="myHeader">
+                <h2>Login</h2>
+                <a href='Home.html' class="menu">BACK TO HOME</a>
+            </div>
+            <div class="bodyPadding"></div> 
+            <!--button to go back home-->
+            <hr />
+            <div class="loginForm">                
+                <!--form for logging into an premade account-->
+                <form>
+                    <label for = "uName">User Name:</label><br />
+                    <input type = "text" id = "uName"> <br />
+                    <label for = "password">Password:</label><br />
+                    <input type = "text" id = "password"> <br />
+                    <br>
+                    <input type = "submit" value="Login" class='mainButton'> <br />
+                </form>
+                <!--link to accounts.html to create an account-->
+                <button onclick ="window.location.href='accounts.html';"class='mainButton'> Need to create an account?</button><br />
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <p>LCDC | IT Job Search© 2021</p>
+        </footer> 
+    </div>
+</body>
+</html>

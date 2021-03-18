@@ -1,0 +1,58 @@
+<!--IT Job Search, LCDC-->
+<!--David Brooks 3/17/21-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Job Search | Edit Profile</title>
+    <link rel='stylesheet' type='text/css' href='./CSS/Itjob.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div id ="pageContainer">
+        <div id ="contentWrap">
+            <div class="header" id="myHeader">
+                <h2>Edit Profile</h2>
+                <!--button to go back home-->
+                <a href='Home.html' class="menu">BACK TO HOME</a>
+            </div>
+            <div class="bodyPadding"></div> 
+            <div class= "account" >
+                
+                <form class =" middleAccount">
+                    <img class="profile" src="Images/profilepic.jpg">
+                    <!--Form personalize account-->
+                    <div class="form">           
+                        <label for = "resume'">Upload Resume:</label><br/>
+                        <br/>
+                        <!--for a user to upload their resume-->
+                        <input type = "file" id ="resume"><br/>
+                        <br/>
+                        <lable for ="photoID">Upload a Photo ID</lable><br/>
+                        <br/>
+                        <!--uplad a profile picture of yourself-->
+                        <input type = "file" id ="photoID"><br/>
+                        <br/>
+                        <!--enter your birthday-->
+                        <label for = "Birthday">Enter Birthday:</label><br/>
+                        <br/>
+                        <input type = "text" id ="uName"><br/>
+                        <br/>
+                        <!--write a biography about yourself-->
+                        <label for = "Bio">Write a Biography about yourself:</label><br/>
+                        <br/>
+                        <input type = "textbox" id ="bio"><br/>
+                        <br/>
+                    <!--this will create a log in the database when using javascript-->
+                        <input type ="submit" value="Update Account" class='mainButton'>
+                    </div> 
+                </form>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <p>LCDC | IT Job Search© 2021</p>
+        </footer> 
+    </div>
+</body>
+</html>

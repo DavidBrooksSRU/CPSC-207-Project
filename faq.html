@@ -1,0 +1,184 @@
+<!--IT Job Search, LCDC-->
+  <!DOCTYPE html>
+<head>
+    <title>IT Job Search | Question Forum</title>
+    <link rel='stylesheet' type='text/css' href='./CSS/Itjob.css'>
+</head>
+<!--Start of body-->
+<body>
+  <div id ="pageContainer">
+    <div id ="contentWrap">
+      <div class="header" id="myHeader">
+        <!--Login or user profile option depending on access-->
+        <div class="user">
+          <button class="dropdown">Log In</button>
+            <div class="dropdownContent" float="right">
+              <a href='login.html'>Log In</a>
+              <a href='createaccount.html'>Create Account</a>
+              <a href='editprofile.html'>Edit Profile</a>
+            </div>
+          </div>
+          <h1>IT Job Search</h1>
+    
+           <!--Menu starts here-->
+          <div class="menu">
+            <a href = 'Home.html' class='menu'>Home</a>
+            <a href='joblistings.html'class="menu">Job Listings</a>
+            <a href='faq.html' class="menu current">FAQs</a>
+            <a href='jobdescriptions.html' class="menu">Job Descriptions</a>
+          </div>
+          <!--Menu ends here-->
+      </div>
+
+      
+      
+
+      <div class="bodyPadding"></div> 
+
+      <div class="columnTable">
+        <div class ="center">
+          <h2>Frequently Asked Questions</h2>
+          <!--Input items for submitting a post on the forum-->
+          <form>
+            <label for = "userQ" id="qlabel">Have a question?</label><br />
+            <input type = "text" id = "userQ" size = "50" placeholder ="Just Ask!"><br /><br>
+            <input type = "submit" class = "qSubmit">
+          </form>
+          <!--Header for results-->
+          <h2>Results</h2>
+
+          <div id = "results"><!--ID to display results-->
+
+            <!--First Sample FAQ-->
+            <form class = "formPad">
+              <fieldset>
+                <legend id="qflegend">Question: What is the average salary for a Software Engineer?</legend>
+                <p class = "answer">
+                  <label>Short Answer:</label><br>
+                  The average Software Engineering Salary is around $87,000 dollars.
+                </p>
+                <p class = "answer">
+                  <label>Long Answer:</label><br>
+                  For the average salary, many factors come into play. Things such as location, programming language, experience all affect salary. The average range for a Software Engineer is 60,000 - 120,000 dollars.
+                </p>
+                <p class = "helpful">
+                    Was this answer helpful?<br><br>
+                    <button class = "qSubmit">YES</button>
+                    <button class = "qSubmit">NO</button>
+                </p>
+              </fieldset>
+            </form>
+
+            <!--Second SAMPLE FAQ-->
+            <form class = "formPad">
+              <fieldset>
+                <legend id="qflegend">Question: What is the average salary for an IT position?</legend>
+                <p class = "answer">
+                  <label>Short Answer:</label><br>
+                  The average salary for an Information Tech. position is around 52,000 dollars.
+                </p>
+                <p class = "answer">
+                  <label>Long Answer:</label><br>
+                  Much like Software Engineering, salaries are based on location and experience. The average range is about 34,000 to 77,000 dollars for Information Technology. 
+                </p>
+                <p class = "helpful">
+                  Was this answer helpful? <br><br>
+                  <button class = "qSubmit">YES</button>
+                  <button class = "qSubmit">NO</button>
+                </p>
+              </fieldset>
+            </form>
+
+            <!--THIRD SAMPLE FAQ-->
+            
+            <form class = "formPad">
+              <fieldset>
+                <legend id="qflegend">Question: Do I need a degree for IT/Computer science?</legend>
+                <p class = "answer">
+                  <label>Short Answer:</label><br>
+                  Yes and No
+                </p>
+                <p class = "answer">
+                  <label>Long Answer:</label><br>
+                  The answer to this depends on what youd like to do with your career. If you would like to obtain a job in Cyber Security, a bachelors with a focus in Cyber Security will be your best bet. Some IT jobs can be obtained with certain qualifications, where for Software Engineer you can be self-taught and obtain a job. 
+                </p>
+                <p class = "helpful">
+                    Was this answer helpful? <br><br>
+                    <button class = "qSubmit">YES</button>
+                    <button class = "qSubmit">NO</button>
+                  </p>
+              </fieldset>
+            </form>
+
+                  <!--Fourth SAMPLE ANSWER-->
+            <form class = "formPad">
+              <fieldset>
+                <legend id="qflegend">Question: Are coding bootcamps worth it?</legend>
+                <p class = "answer">
+                  <label>Short Answer:</label><br>
+                  For the most part yes.
+                </p>
+                <p class = "answer">
+                  <label>Long Answer:</label><br>
+                  Coding bootcamps are a good option to learn information of programming fast. While most employers recognize these camps as a good thing, bootcamps are not regionally or nationally accredited. Which means not every bootcamp will teach you as much as you would learn by obtaining a Computer Science degree. In today's job market, most individuals will be able to find a job after attending a bootcamp. Be aware of the up front cost though. 
+                </p>
+                <p class = "helpful">
+                    Was this answer helpful?<br><br>
+                    <button class = "qSubmit">YES</button>
+                    <button class = "qSubmit">NO</button>
+                </p>
+              </fieldset>
+            </form>
+
+            <!--FIFTH SAMPLE FAQ, INCLUDES A LIST FOR REQUIREMENTS-->
+            
+            <form class = "formPad2">
+              <fieldset>
+                <legend id="qflegend">Question: What are some skills employers look for with CS degree?</legend>
+                <p class = "answer">
+                  <label>Short Answer:</label><br>
+                  Employers will look for overall knowledge in computers systems, as well as knowledge in multiple programming languages. 
+                </p>
+                <p class = "answer">
+                  <label>Long Answer:</label><br>
+                  Employers on an everday basis post job ads on our website. Here are some of the requirements we see the most. Not every job requires every language.
+                  <ul class = "answer">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>Being able to manage a Project</li>
+                    <li>Understanding of Linux Operating Systems</li>
+                  </ul>
+                </p>
+                <p class = "helpful">
+                    Was this answer helpful?<br><br>
+                    <button class = "qSubmit">YES</button>
+                    <button class = "qSubmit">NO</button>
+                </p>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+          
+        <!--Right coloumn ads-->
+        <div class="rightColumn">
+          <br>
+          <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+          <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+          <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+          <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+          <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+        </div>
+      </div>
+    </div> 
+      
+    <!--FOOTER-->
+    <footer>
+      <p>LCDC | IT Job Search© 2021</p>
+    </footer>
+  </div>  
+</body>
+</html>

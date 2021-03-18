@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <head>
+        <title>IT Job Search | Post Jobs</title>
+
+        <link rel='stylesheet' type='text/css' href='./CSS/Itjob.css'>
+    </head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+
+        <a href='joblistings.html' class="menu">BACK</a>
+        
+        <h1>IT Job Search</h1>
+    </div>
+
+    <div class = "pageContainer">
+        <div class = "content-wrap">
+
+            <div class = "bodyPadding"></div>
+
+            <div id = "postForm">
+                <form>
+                    <!--Labels and input to allow data collection-->
+                    <label for = "position">Job Position:</label><br />
+                    <textarea id = "position" rows = "3" cols = "30"></textarea><br />
+                    <label for = "location">Job Location:</label><br />
+                    <textarea id = "location" rows = "2" cols = "30"></textarea><br />
+                    <label for = "description">Job Description:</label><br />
+                    <textarea id = "description" rows = "4" cols = "30"></textarea><br />
+                    <label for = "salary">Job Salary:</label><br />
+                    <textarea id = "salary" rows = "2" cols = "30"></textarea><br />
+            
+                    <!--Radio buttons for required education level-->
+                    <strong>Required Education Level</strong><br />
+                    <input type = "radio" id = "hsdiploma" name = "edu" value = "hsdiploma">
+                    <label for = "hsdiploma">High School Diploma</label><br />
+                    <input type = "radio" id = "assoc" name = "edu" value = "assoc">
+                    <label for = "assoc">Associates Degree</label><br />
+                    <input type = "radio" id = "bach" name = "edu" value = "bach">
+                    <label for = "bach" >Bachelors Degree</label><br />
+                    <input type = "radio" id = "masters" name = "edu" value = "masters">
+                    <label for = "masters">Masters Degree</label><br />
+            
+                    <!--Submit button-->
+                    <br />
+                    <input type = "submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>LCDC | IT Job Search© 2021</p>
+    </footer>
+</body>
+</html>

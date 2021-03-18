@@ -1,0 +1,197 @@
+<!--IT Job Search, LCDC-->
+<!DOCTYPE html>
+<head>
+    <title>IT Job Seach | Job Listings</title>
+
+    <!--Link to CSS file-->
+    <link rel='stylesheet' type='text/css' media='screen' href='./CSS/Itjob.css'>
+</head>
+
+<!--Start of Body Section-->
+<body>
+    <div id ="pageContainer">
+        <div id ="contentWrap">
+            <!--Header-->
+            <div class="header" id="myHeader">
+                <!--Login or user profile option depending on access-->
+                <div class="user">
+                    <button class="dropdown">Log In</button>
+                    <div class="dropdownContent">
+                        <a href='login.html'>Log In</a>
+                        <a href='createaccount.html'>Create Account</a>
+                        <a href='editprofile.html'>Edit Profile</a>
+                    </div>
+                </div>
+                
+                <h1>IT Job Search</h1>
+                
+                <!--Menu starts here-->
+                <div class="menu">
+                    <a href = 'Home.html' class='menu'>Home</a>
+                    <a href='joblistings.html'class="menu current">Job Listings</a>
+                    <a href='faq.html' class="menu">FAQs</a>
+                    <a href='jobdescriptions.html' class="menu">Job Descriptions</a>
+                </div>
+            </div>
+
+            <!--Adds extra padding-->
+            <div class="bodyPadding"></div>
+
+            <!--Start of main page div-->
+            <div class = "columnTable">
+
+                <!--***Left Column***-->
+                <div class = "leftColumn">
+
+                    <!--Filter form-->
+                    <form id = "filterText">
+                        <p>Search for Jobs By...</p>
+                        <div class = "filter">
+                            <input type = "checkbox" id ="position">
+                            <label for = "position">Position</label><br />
+                            <input type = "checkbox" id ="location">
+                            <label for = "location">Location</label><br />
+                            <input type = "checkbox" id ="salary">
+                            <label for = "salary">Salary</label><br />
+                            <input type = "checkbox" id ="edRequ">
+                            <label for = "edRequ">Education Requirements</label><br /><br />
+                        </div>
+                        
+                        <!--Submit button-->
+                        <button class='mainButton'>Update Search</button>
+
+                    </form>
+                </div>
+
+                <!--***Middle Column***-->
+                <div class = "center">
+
+                        <!--Job post button-->
+                    <div id= "jobbutton">
+                        <a class = "jobbutton" href = postform.html>CREATE NEW POST</a>
+                    </div>
+
+                    <!--Example of a job listing-->
+                    <div class = "jobpost">
+                        <span class = "position">INFORMATION TECHNOLOGY ANALYST</span><br />
+                        <span class = "compname">PNC Bank</span><br />
+                        <span class = "location">Pittsburgh, PA</span><br />
+                        <ul>
+                            <li>
+                                <span>Job Description: Candidate will assist in Information
+                                Technology department as an analyst and assistant to procedures 
+                                and day-to-day operations.</span>
+                            </li>
+                            <li><span>Salary: $70,000</span></li>
+                            <li><span>Required Education Level: Bachelor's Degree</span></li><br />
+                        </ul>
+
+                        <!--Link to company site-->
+                        <a class = "jobbutton" href = "https://careers.pnc.com/global/en" target = "_blank">APPLY ON SITE</a>
+                    </div>
+
+                    <!--Example of a job listing-->
+                    <div class = "jobpost">
+                        <span class = "position">DATA ANALYST</span><br />
+                        <span class = "compname">Facebook</span><br />
+                        <span class = "location">Pittsburgh, PA</span><br />
+                        <ul>
+                            <li>
+                                <span>Job Description: Candidate will collect, interpret and visualize data to uncover insights. 
+                                    The candidate will assigns a numerical value to business functions so performance is assessed 
+                                    and compared over time. Finally, candidate enables an organization to make more informed decisions.</span>
+                            </li>
+                            <li><span>Salary: $90,000</span></li>
+                            <li><span>Required Education Level: Bachelor's Degree</span></li>
+                        </ul>
+
+                        <!--Link to company site-->
+                        <a class = "jobbutton" href = "https://www.facebook.com/careers/" target = "_blank">APPLY ON SITE</a>
+                    </div>
+
+                    <!--Example of a job listing-->
+                    <div class = "jobpost">
+                        <span class = "position">MOBILE DEVELOPER</span><br />
+                        <span class = "compname">Twitter, Inc</span><br />
+                        <span class = "location">Los Angeles, CA</span><br />
+                        <ul>
+                            <li>
+                                <span>Job Description: Candidate will create applications for portable devices 
+                                    such as tablet computers and smart phones. Will write programs for 
+                                    a variety of mobile platforms, including Microsoft Windows Phone, Google 
+                                    Android and Apple iOS. Will require candidate to learn programming languages 
+                                    for each platform worked with. The constantly changing nature of mobile computing 
+                                    requires candidate to continually modify and update applications they create.</span>
+                            </li>
+                            <li><span>Salary: $100,000</span></li>
+                            <li><span>Required Education Level: Bachelor's Degree</span></li>
+                        </ul>
+
+                        <!--Link to company site-->
+                        <a class = "jobbutton" href = "https://careers.twitter.com/" target = "_blank">APPLY ON SITE</a>
+                    </div>
+
+                    <!--Example of a job listing-->
+                    <div class = "jobpost">
+                        <a href = "https://www.google.com/" class = "position">HELP DESK TECHNICIAN</a><br />
+                        <span class = "compname">Duquense Light Co.</span><br />
+                        <span class = "location">Pittsburgh, PA</span><br />
+                        <ul>
+                            <li>
+                                <span>Job Description: Candidate will provide technical customer support and troubleshooting services to 
+                                    end-users needing help with their computer hardware or software. Candidate will also write
+                                    training manuals and train computer users on various technical products. The individual in this role does 
+                                    daily performance checks to keep technologies up to date and running smoothly.</span>
+                            </li>
+                            <li><span>Salary: $40,000</span></li>
+                            <li><span>Required Education Level: Associate's Degree</span></li>
+                        </ul>
+
+                        <!--Link to company site-->
+                        <a class = "jobbutton" href = "https://www.duquesnelight.com/company/about/careers" target = "_blank">APPLY ON SITE</a>
+                    </div>
+
+                    <!--Example of a job listing-->
+                    <div class = "jobpost">
+                        <a href = "https://www.google.com/" class = "position">CYBERSECURITY ANALYST</a><br />
+                        <span class = "compname">UPMC</span><br />
+                        <span class = "location">Pittsburgh, PA</span><br />
+                        <ul>
+                            <li>
+                                <span>Job Description: This candidate will plan and execute security measures to 
+                                    protect the business's computer systems and networks. This candidate will monitor
+                                    threats to organizational networks and create contingency plans for cyber attacks. 
+                                    A candidate in this role is also tasked with reporting breaches and weak spots, 
+                                    researche IT trends, and install software and encryption to protect the company’s network.</span>
+                            </li>
+                            <li><span>Salary: $120,000</span></li>
+                            <li><span>Required Education Level: Master's Degree</span></li>
+                        </ul>
+
+                        <!--Link to company site-->
+                        <a class = "jobbutton" href = "https://careers.upmc.com/" target = "_blank">APPLY ON SITE</a>
+                    </div>
+                </div>
+
+                <!--***Right Column***-->
+                <div class = "rightColumn">
+                    <br />
+                    <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+                    <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+                    <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+                    <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+                    <img src= "Images/Sample_Ad.png" alt= "This is a sample ad">
+                </div>
+            </div> <!--End of main div page-->
+
+            <!--Adds extra padding-->
+            <div class="bodyPadding"></div>
+        </div>
+    
+    <!--Footer-->
+    <footer>
+        <p>LCDC | IT Job Search© 2021</p>
+    </footer>
+</div>
+</body>
+</html>
